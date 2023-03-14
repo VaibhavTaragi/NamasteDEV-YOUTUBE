@@ -74,7 +74,7 @@ const WatchBody = () => {
   return (
     <div className='ml-3 mt-2'>
       <div className='flex'>
-        <iframe width="1100" height="550" src={"https://www.youtube.com/embed/"+ searchParams.get('v')} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        <iframe width="1100" height="550" src={"https://www.youtube.com/embed/"+ searchParams.get('v')+ "?autoplay=1"} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen autoPlay></iframe>
         <div className='flex flex-col w-1/4 ml-2 p-2 border border-black rounded-md  bg-slate-100'>
           <h1 className='text-lg font-bold mb-1'>Live Chat</h1>
           <div className='h-[450px] overflow-y-scroll flex flex-col-reverse'>
