@@ -17,7 +17,7 @@ const VideoContainer = () => {
   }
 
   return (
-    <div className='flex flex-wrap justify-evenly'>
+    <div className='flex flex-wrap justify-evenly overflow-y-auto h-screen scrollbar-hidden m-2' style={{scrollbarWidth: 'none'}}>
       {videos.map(video=>{
         return(
           <Link to={'/watch?v='+video.id} key={video.id}>
