@@ -1,4 +1,4 @@
-// eslint-disable-next-line react-hooks/exhaustive-deps
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { useSearchParams } from 'react-router-dom';
